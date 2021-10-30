@@ -3,18 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "concurrently --kill-others \"npx tailwindcss -i ./style.css -o ./tailwind.css -w\" \"next dev \"",
+    "build": "concurrently \"npx tailwindcss -i ./style.css -o ./tailwind.css --minify\" \"next build\"",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.1",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "next": "11.1.2",
+    "next-pwa": "^5.4.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "babel-preset-next": "^1.4.0",
+    "concurrently": "^6.3.0",
+    "daisyui": "^1.16.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "12.0.1"
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.17"
   }
 }
