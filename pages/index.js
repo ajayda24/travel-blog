@@ -1,7 +1,15 @@
-
+import Header from '../components/Header/index'
+// import Categories from '../components/Categories'
+// import Places from '../components/Places'
+// import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <h1>Next.js + Tailwind CSS Starter</h1>
+    <>
+      <Header />
+      {/* <Categories />
+      <Places />
+      <Footer /> */}
+    </>
   )
 }
