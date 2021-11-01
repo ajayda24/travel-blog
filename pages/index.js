@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Header />
       <Categories />
-      <Blog />
+      <Blog limit={5} />
       <Footer />
     </>
   )

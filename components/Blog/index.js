@@ -1,19 +1,19 @@
 
 import BlogPost from './post'
 
-export default function Blog() {
+export default function Blog(props) {
   return (
     <>
       <main className=' pb-16'>
         <div className='flex flex-wrap justify-around flex-col sm:flex-row gap-4 p-4'>
           <BlogPost
-            imgName='Travel 1'
+            placeName='Travel 1'
             imgUrl='https://picsum.photos/200/300'
             comment='5'
             love='7'
           />
           <BlogPost
-            imgName='Travel 2'
+            placeName='Travel 2'
             imgUrl='https://picsum.photos/300/200'
             comment='2'
             love='4'
