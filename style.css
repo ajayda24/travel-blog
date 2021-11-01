@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  /* background: linear-gradient(#300226 ,#022730,#022730,#300226); */
+  /* background: linear-gradient(#300226 ,#022730); */
+  background-color: #022730;
+  min-height: 100vh;
+}
 .absolute-center {
   position: absolute;
   transform: translateX(-50%, -50%);

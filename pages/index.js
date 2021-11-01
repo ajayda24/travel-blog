@@ -1,6 +1,6 @@
 import Header from '../components/Header'
 import Categories from '../components/Categories'
-// import Places from '../components/Places'
+import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Header />
       <Categories />
-      {/* <Places /> */}
+      <Blog />
       <Footer />
     </>
   )
