@@ -14,6 +14,9 @@ export default async function handler(req, res) {
     await user.save()
     console.log(user);
     res.json('hello')
+
+    const {userId} = req.body
+    const userPlaces = await User.findOne({userId:userId}).populate('places')
   }
 }
 

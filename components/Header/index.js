@@ -6,7 +6,7 @@ import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive'
 export default function Header() {
   return (
     <header className='flex justify-between items-center p-2 bg-white'>
-      <p className='relative text-2xl'>
+      <p className='relative text-2xl text-black'>
         <span className='title'></span>ravel
       </p>
       <div className=''>

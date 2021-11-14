@@ -10,13 +10,17 @@ export default function Blog(props) {
             placeName='Travel 1'
             imgUrl='https://picsum.photos/200/300'
             comment='5'
-            love='7'
+            emoji_love='7'
+            emoji_like='3'
+            emoji_satisfied='6'
           />
           <BlogPost
             placeName='Travel 2'
             imgUrl='https://picsum.photos/300/200'
             comment='2'
-            love='4'
+            emoji_love='4'
+            emoji_like='3'
+            emoji_satisfied='6'
           />
         </div>
         <div className='flex justify-center items-center mx-7 py-3 rounded-md bg-white bg-opacity-[0.15] shadow-2xl text-white backdrop-blur-sm'>
