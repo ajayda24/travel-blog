@@ -6,10 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link
-          href='https://fonts.googleapis.com/icon?family=Material+Icons'
-          rel='stylesheet'
-        />
+        <title>Travel Blog</title>
       </Head>
       <Component {...pageProps} />
     </>

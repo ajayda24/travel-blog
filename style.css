@@ -7,6 +7,8 @@ body{
   /* background: linear-gradient(#300226 ,#022730); */
   background-color: #022730;
   min-height: 100vh;
+  /* overflow: visible !important; */
+  padding: 0 !important;
 }
 .absolute-center {
   position: absolute;
